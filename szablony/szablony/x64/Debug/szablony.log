@@ -1,14 +1,34 @@
 ﻿  szablony.cpp
-E:\4TIPgNosek\4_Obiektowe\4_Obiektowe\szablony\szablony\szablony.cpp(17,23): warning C4305: 'initializing': truncation from 'double' to 'float'
-E:\4TIPgNosek\4_Obiektowe\4_Obiektowe\szablony\szablony\szablony.cpp(17,36): warning C4305: 'initializing': truncation from 'double' to 'float'
-E:\4TIPgNosek\4_Obiektowe\4_Obiektowe\szablony\szablony\szablony.cpp(18,35): warning C4244: 'argument': conversion from 'float' to 'T', possible loss of data
+E:\4TIPgNosek\4_Obiektowe\4_Obiektowe\szablony\szablony\szablony.cpp(25,23): warning C4305: 'initializing': truncation from 'double' to 'float'
+E:\4TIPgNosek\4_Obiektowe\4_Obiektowe\szablony\szablony\szablony.cpp(25,36): warning C4305: 'initializing': truncation from 'double' to 'float'
+E:\4TIPgNosek\4_Obiektowe\4_Obiektowe\szablony\szablony\szablony.cpp(26,35): warning C4244: 'argument': conversion from 'float' to 'T', possible loss of data
           with
           [
               T=int
           ]
-E:\4TIPgNosek\4_Obiektowe\4_Obiektowe\szablony\szablony\szablony.cpp(18,29): warning C4244: 'argument': conversion from 'float' to 'T', possible loss of data
+E:\4TIPgNosek\4_Obiektowe\4_Obiektowe\szablony\szablony\szablony.cpp(26,29): warning C4244: 'argument': conversion from 'float' to 'T', possible loss of data
           with
           [
               T=int
+          ]
+E:\4TIPgNosek\4_Obiektowe\4_Obiektowe\szablony\szablony\szablony.cpp(17,24): warning C4244: 'return': conversion from 'double' to 'J', possible loss of data
+          with
+          [
+              J=float
+          ]
+E:\4TIPgNosek\4_Obiektowe\4_Obiektowe\szablony\szablony\szablony.cpp(28): message : see reference to function template instantiation 'J obwKol<float>(J)' being compiled
+          with
+          [
+              J=float
+          ]
+E:\4TIPgNosek\4_Obiektowe\4_Obiektowe\szablony\szablony\szablony.cpp(21,17): warning C4244: 'return': conversion from 'double' to 'J', possible loss of data
+          with
+          [
+              J=float
+          ]
+E:\4TIPgNosek\4_Obiektowe\4_Obiektowe\szablony\szablony\szablony.cpp(29): message : see reference to function template instantiation 'J polKol<float>(J)' being compiled
+          with
+          [
+              J=float
           ]
   szablony.vcxproj -> E:\4TIPgNosek\4_Obiektowe\4_Obiektowe\szablony\x64\Debug\szablony.exe
