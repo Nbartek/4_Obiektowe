@@ -1,0 +1,14 @@
+﻿  szablony.cpp
+E:\4TIPgNosek\4_Obiektowe\4_Obiektowe\szablony\szablony\szablony.cpp(17,23): warning C4305: 'initializing': truncation from 'double' to 'float'
+E:\4TIPgNosek\4_Obiektowe\4_Obiektowe\szablony\szablony\szablony.cpp(17,36): warning C4305: 'initializing': truncation from 'double' to 'float'
+E:\4TIPgNosek\4_Obiektowe\4_Obiektowe\szablony\szablony\szablony.cpp(18,35): warning C4244: 'argument': conversion from 'float' to 'T', possible loss of data
+          with
+          [
+              T=int
+          ]
+E:\4TIPgNosek\4_Obiektowe\4_Obiektowe\szablony\szablony\szablony.cpp(18,29): warning C4244: 'argument': conversion from 'float' to 'T', possible loss of data
+          with
+          [
+              T=int
+          ]
+  szablony.vcxproj -> E:\4TIPgNosek\4_Obiektowe\4_Obiektowe\szablony\x64\Debug\szablony.exe
