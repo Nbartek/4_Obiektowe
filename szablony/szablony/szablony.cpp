@@ -37,10 +37,29 @@ template<>
 double srednia(double wyklad, double cwiczenia, double labolatorium, double seminarium) {
     return((wyklad + cwiczenia + labolatorium + seminarium) / 4);
 }
+void ex3();
+template<typename K>
+std::string kolo(K promien) {
+    K pp = 3.14 * (promien ^ 2);
+    K obw = 2 * 3.14 * promien;
+    return std::cout << "Pole kola to: " << pp << " obwod kola to: " << obw << std::endl;
+}
+template<typename K>
+std::string kwadrat(K a) {
+    K pp = a ^ 2;
+    K obw = 4*a;
+    return std::cout << "Pole kwadratu to: " << pp << " obwod kwadratu to: " << obw << std::endl;
+}
+template<typename P>
+std::string prostokont(P a,P b) {
+    P pp = a*b;
+    P obw = 2 *a+2*b ;
+    return std::cout << "Pole prostokonta to: " << pp << " owod prostokonta to: " << obw << std::endl;
+}
 int main()
 {
     //ex1();
-    ex2();
+    //ex2();
 }
 
 void ex1()
@@ -59,4 +78,9 @@ void ex1()
 }
 void ex2() {
     std::cout << "srednia z ocen: " << srednia(3, 4, 3, 4) << std::endl;
+}
+void ex3(){
+    std::cout << "Podaj co chesz : ";
+    std::string win;
+    std::getline(std::cin, win);
 }
