@@ -1,0 +1,8 @@
+﻿  sentinel.cpp
+D:\Programing\4_Obiektowe\sentinelSearchVol2\sentinelSearchVol2\sentinel.h(12,6): warning C4200: nonstandard extension used: zero-sized array in struct/union
+D:\Programing\4_Obiektowe\sentinelSearchVol2\sentinelSearchVol2\sentinel.h(12,6): message : This member will be ignored by a defaulted constructor or copy/move assignment operator
+  sentinelSearchVol2.cpp
+D:\Programing\4_Obiektowe\sentinelSearchVol2\sentinelSearchVol2\sentinel.h(12,6): warning C4200: nonstandard extension used: zero-sized array in struct/union
+D:\Programing\4_Obiektowe\sentinelSearchVol2\sentinelSearchVol2\sentinel.h(12,6): message : This member will be ignored by a defaulted constructor or copy/move assignment operator
+  Generating Code...
+  sentinelSearchVol2.vcxproj -> D:\Programing\4_Obiektowe\sentinelSearchVol2\x64\Debug\sentinelSearchVol2.exe
