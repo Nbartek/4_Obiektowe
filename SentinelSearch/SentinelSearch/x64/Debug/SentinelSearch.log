@@ -1,0 +1,3 @@
+﻿  SentinelSearch.cpp
+E:\4TIPgNosek\4_Obiektowe\4_Obiektowe\SentinelSearch\SentinelSearch\SentinelSearch.cpp(17,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  SentinelSearch.vcxproj -> E:\4TIPgNosek\4_Obiektowe\4_Obiektowe\SentinelSearch\x64\Debug\SentinelSearch.exe
