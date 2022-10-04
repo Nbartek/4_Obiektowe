@@ -9,23 +9,21 @@ class sentinel
 {
 private:
 	int length;
-	int arr[];
-
-
+	int *arr;
 public:
-	sentinel(int length,int lista[]) {
-		 this->length = length;
-		lista = this->arr;
+	sentinel(int length) {
+		this->length = length;
+		arr = new int[length+1];
 		fillArr(); 
 		displayArr();
 	}
 	void sentinelSearch(int searchedItem) {
-		arr[length] = searchedItem;
+		arr[length+1] = searchedItem;
 		int i = 0;
 		while (arr[i] != searchedItem)
 			i++;
 
-		if (i == length) {
+		if (i == length+1) {
 			cout << "Nie znaleziono szukanej liczby:(" << endl;
 		}
 		else {
