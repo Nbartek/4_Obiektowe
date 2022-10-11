@@ -8,7 +8,7 @@ using namespace std;
 class Pracownik {
 public: 
     string imie, nazwisko;
-    void zwrocDane();
+    virtual void zwrocDane();
 };
 class Nauczyciel : public Pracownik {
 public:
@@ -31,13 +31,13 @@ int main()
     Nauczyciel pracownik2;
     w_pracownik = &pracownik2;
     w_pracownik->nazwisko = "Janda";
-    //w_pracownik->przedmiot = " dupa";
+    pracownik2.przedmiot = " dupa";
     w_pracownik->zwrocDane();
     Wychowawca pracownik3;
     w_pracownik = &pracownik3;
     w_pracownik->nazwisko = "Janda";
-    //w_pracownik->przedmiot = " dupa";
-    //w_pracownik->klasa = "jezynki2a"
+    pracownik3.przedmiot = " dupa";
+    //pracownik3.klasa = "jezynki2a";
     w_pracownik->zwrocDane();
     std::cout << "Hello World!\n";
 }
