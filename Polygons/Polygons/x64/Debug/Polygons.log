@@ -1,2 +1,3 @@
 ﻿  Polygons.cpp
+E:\4TIPgNosek\4_Obiektowe\4_Obiektowe\Polygons\Polygons\Polygons.cpp(51,17): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
   Polygons.vcxproj -> E:\4TIPgNosek\4_Obiektowe\4_Obiektowe\Polygons\x64\Debug\Polygons.exe

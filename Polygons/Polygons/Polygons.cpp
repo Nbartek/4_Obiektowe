@@ -48,8 +48,9 @@ public:
         this->c = c;
     }
     double area() {
-        float p = (a * b * c) / 2.0;
+        float p = (a + b + c) / 2.0;
         float pt = sqrt(p * (p - a) * (p - b) * (p - c));
+        return pt;
     }
 };
 int main()
@@ -61,9 +62,11 @@ int main()
     cout << "Kwadrat" << endl;
     Square square(12);
     cout << square.perimeter() << endl;
+    cout << square.area() << endl;
     cout << "trojkat" << endl;
     Triangle trinagle(10, 10, 10);
     cout << trinagle.area() << endl;
+    cout << trinagle.perimeter() << endl;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
