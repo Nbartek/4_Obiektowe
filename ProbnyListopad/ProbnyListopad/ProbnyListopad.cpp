@@ -6,7 +6,6 @@ using namespace std;
 class SortArray {
 private:
     int tablica[10];
-    int maximal;
 public:
     /// <summary>
     /// nazwa funkcji:          searchMax()
@@ -16,20 +15,20 @@ public:
     ///                         max jest nadpisywany wartoœæia tablicy o indexie rotacji. Po petli maximum jest nadpisywane zmienna max 
     ///  autor:                 Bartek Nosek
     /// </summary>
-    void searchMax() {
+    int searchMax(int j =0) {
         int max =0;
-        for (int i = 0; i < 10; i++)
+        for (int i = j; i < 9; i++)
         {
             if (tablica[i] > tablica[i + 1]) {
            
                 if (tablica[i] > max) {
-                    max = tablica[i];
+                    max = i;
                     
                 }
 
             }
         }
-        maximal = max;
+        return max;
     }
     /// <summary>
     /// nazwa funkcji:           sort()
@@ -42,16 +41,11 @@ public:
     void sort() {
         for (int i = 0; i < 10; i++)
         {
-            for (int j = i; j < 10; j++)
-            {
-                int temp = 0;
-                    if (tablica[j] > temp)
-                    {
-                        temp = tablica[j];
-                        tablica[j] = tablica[i];
-                        tablica[i] = temp;
-                    }
-            }
+            int maximal = searchMax(i);
+            int temp = tablica[i];
+            tablica[i] = tablica[maximal];
+            tablica[maximal] = temp;
+           
                 
 
         }
@@ -85,7 +79,7 @@ int main()
     SortArray v1;
     //v1.getNubersToArray();
     v1.getRandomNumbers();
-    v1.searchMax();
+    cout<<v1.searchMax(2);
     v1.sort();
     cout << "-----------Wynik" << endl;
     v1.display();
