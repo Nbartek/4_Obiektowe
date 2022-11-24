@@ -21,8 +21,10 @@ public:
         for (int i = 0; i < 10; i++)
         {
             if (tablica[i] > tablica[i + 1]) {
+           
                 if (tablica[i] > max) {
                     max = tablica[i];
+                    
                 }
 
             }
@@ -42,14 +44,13 @@ public:
         {
             for (int j = i; j < 10; j++)
             {
-                int temp;
-                if (tablica[i] < tablica[i + 1]) {
-                    temp = tablica[i];
-                    tablica[i] = tablica[i + 1];
-                    tablica[i + 1] = temp;
-
-                }
-                //tablica[i] = maximal;
+                int temp = 0;
+                    if (tablica[j] > temp)
+                    {
+                        temp = tablica[j];
+                        tablica[j] = tablica[i];
+                        tablica[i] = temp;
+                    }
             }
                 
 
@@ -66,7 +67,7 @@ public:
         for (int i = 0; i < 10; i++)
         {
             int num;
-            cout << "Wprowadz liczbe na index" << i << endl;
+            cout << "Wprowadz liczbe na index " << i << endl;
             cin >> num;
             tablica[i]=num;
         }
