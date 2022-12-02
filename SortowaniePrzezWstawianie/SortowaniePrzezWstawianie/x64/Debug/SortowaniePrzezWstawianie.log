@@ -1,0 +1,4 @@
+﻿  SortowaniePrzezWstawianie.cpp
+E:\4TIPgNosek\4_Obiektowe\4_Obiektowe\SortowaniePrzezWstawianie\SortowaniePrzezWstawianie\SortowaniePrzezWstawianie.cpp(21,1): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+E:\4TIPgNosek\4_Obiektowe\4_Obiektowe\SortowaniePrzezWstawianie\SortowaniePrzezWstawianie\SortowaniePrzezWstawianie.cpp(35,1): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  SortowaniePrzezWstawianie.vcxproj -> E:\4TIPgNosek\4_Obiektowe\4_Obiektowe\SortowaniePrzezWstawianie\x64\Debug\SortowaniePrzezWstawianie.exe
