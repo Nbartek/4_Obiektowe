@@ -1,0 +1,16 @@
+﻿  Algorithms.cpp
+D:\Programming\4_Obiektowe\Algorithms\Algorithms\SortingAll.h(16,13): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+D:\Programming\4_Obiektowe\Algorithms\Algorithms\SortingAll.h(26,1): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+D:\Programming\4_Obiektowe\Algorithms\Algorithms\SortingAll.h(98,1): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+D:\Programming\4_Obiektowe\Algorithms\Algorithms\SortingAll.h(103,1): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+D:\Programming\4_Obiektowe\Algorithms\Algorithms\SearchingAll.h(13,13): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+D:\Programming\4_Obiektowe\Algorithms\Algorithms\SearchingAll.h(39,1): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+D:\Programming\4_Obiektowe\Algorithms\Algorithms\SearchingAll.h(53,22): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+D:\Programming\4_Obiektowe\Algorithms\Algorithms\SearchingAll.h(62,1): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+D:\Programming\4_Obiektowe\Algorithms\Algorithms\SearchingAll.h(70,1): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+D:\Programming\4_Obiektowe\Algorithms\Algorithms\BullcrapEx.h(45,13): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+D:\Programming\4_Obiektowe\Algorithms\Algorithms\BullcrapEx.h(62,1): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+D:\Programming\4_Obiektowe\Algorithms\Algorithms\BullcrapEx.h(71,1): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+D:\Programming\4_Obiektowe\Algorithms\Algorithms\BullcrapEx.h(83,1): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+D:\Programming\4_Obiektowe\Algorithms\Algorithms\Algorithms.cpp(13,9): warning C4101: 'tab': unreferenced local variable
+  Algorithms.vcxproj -> D:\Programming\4_Obiektowe\Algorithms\x64\Debug\Algorithms.exe

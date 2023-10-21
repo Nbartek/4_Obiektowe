@@ -1,0 +1,5 @@
+﻿  Matura 2022.cpp
+D:\Programming\4_Obiektowe\Matura 2022\Matura 2022\Matura 2022.cpp(29,31): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+D:\Programming\4_Obiektowe\Matura 2022\Matura 2022\Matura 2022.cpp(68,42): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+D:\Programming\4_Obiektowe\Matura 2022\Matura 2022\Matura 2022.cpp(84,44): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  Matura 2022.vcxproj -> D:\Programming\4_Obiektowe\Matura 2022\x64\Debug\Matura 2022.exe

@@ -1,0 +1,4 @@
+﻿  Matura2021.cpp
+D:\Programming\4_Obiektowe\Matura2021\Matura2021\Matura2021.cpp(77,38): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+D:\Programming\4_Obiektowe\Matura2021\Matura2021\Matura2021.cpp(110,30): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  Matura2021.vcxproj -> D:\Programming\4_Obiektowe\Matura2021\x64\Debug\Matura2021.exe
